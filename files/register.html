@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      .wrapper {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        display: block;
+        border: 1px solid #000;
+      }
+      button {
+        margin-top: 20px;
+      }
+      h2 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="/register" method="post">
+        <label for="login">Login:</label>
+        <input name="login" type="text" id="login" />
+        <label for="Email">Email:</label>
+        <input name="Email" type="text" id="Email" />
+        <label for="login">Password:</label>
+        <input name="password" type="password" id="password" />
+        <label for="passwordx2">Password x2:</label>
+        <input name="passwordx2" type="password" id="passwordx2" />
+        <button>Register</button>
+      </form>
+    </div>
+  </body>
+</html>
